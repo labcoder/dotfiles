@@ -4,9 +4,13 @@ alias lA='ls -A'
 alias ll="ls -l"
 alias lr='ls -r'
 alias lR='ls -R'
-alias cl="clear"
-alias e="exit"
-alias ..="cd .."
+alias cl='clear'
+alias e='exit'
+alias ..='cd ..'
+alias gits='git status'
+alias push='git push'
+alias pull='git pull'
+alias commit='git commit'
 
 #color scheme on terminal------------------------------------------------------
 export CLICOLOR=1
