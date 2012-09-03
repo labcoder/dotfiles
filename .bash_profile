@@ -12,3 +12,6 @@ alias ..="cd .."
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+#bash techniques to make it better---------------------------------------------
+export HISTCONTROL=ignoreboth
