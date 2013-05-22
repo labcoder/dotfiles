@@ -22,8 +22,8 @@ alias commit='git commit'
 alias checkout='git checkout'
 alias sassy='sass --unix-newlines --cache-location /tmp/sass-cache --watch scss:css $@'
 alias haskell='ghci'
-alias zshconfig="vi ~/.zshrc"
-alias ohmyzsh="vi ~/.oh-my-zsh"
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -48,9 +48,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/go/bin:/Users/oscar/pear/bin:/Users/oscar/pear/share/:~/Downloads/RDSCli-1.13.002/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/go/bin:/Users/oscar/pear/bin:/Users/oscar/pear/share/:~/Downloads/RDSCli-1.13.002/bin:/Applications/love.app/Contents/MacOS/
 export PORT=5000
-
-export JAVA_HOME="/usr"
 
 if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then source "$HOME/.rvm/scripts/rvm" ; fi

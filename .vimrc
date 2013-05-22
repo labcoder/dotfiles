@@ -67,4 +67,5 @@ set background=dark
 set number
 set cc=80
 set expandtab
-set tabstop=2
+set tabstop=4
+execute pathogen#infect()
